@@ -1,0 +1,63 @@
+.hello{
+    display: flex;
+    
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    ;
+    padding: 10px;
+    border-top: 1px solid #bfbcbc;
+
+
+
+    &__img{
+
+     width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: -21px;
+    
+    }
+&__myphoto{
+
+max-width: 100%;
+}
+
+&__btndownload{
+
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+
+    
+    &:hover{
+
+        background-color: RoyalBlue;
+    }
+
+
+}
+
+&__btncontact{
+
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+
+    &:hover{
+
+        background-color: rgb(221, 173, 15);
+    }
+
+
+
+}
+
+}

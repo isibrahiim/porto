@@ -1,0 +1,39 @@
+.header {
+  height: 225px;
+  width: 100%;
+  padding: 10px;
+  background-color: grayscale($color: #ffffff);
+
+  &__nav {
+    margin: 0 auto;
+    height: 50px;
+   
+  }
+
+  &__ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2px;
+  }
+
+  &__li {
+    list-style-type: none;
+
+    &__a {
+      display: flex;
+      margin-left: 25px;
+      padding: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: 700;
+    }
+  }
+  &__h4 {
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+
+
+}

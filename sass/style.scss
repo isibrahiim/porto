@@ -1,0 +1,20 @@
+@import "_reset.scss";
+@import "_header.scss";
+@import "_sections.scss";
+@import "_skills.scss";
+@import "_experience.scss";
+
+body {
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1120px;
+  margin: 90px auto;
+  background-color: saturation($color: #000000);
+ 
+}
+
+
+

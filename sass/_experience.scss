@@ -1,0 +1,22 @@
+.experience{
+position: relative;
+    display: flex;
+    background-color: #fff;
+    height: 531px;
+    margin: 10px;
+    flex-basis: calc(100% / 3 - 20px);
+
+&__big{
+
+    max-width: 100%;
+
+}
+
+&__absolute {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+  } 
+}
+
